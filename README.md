@@ -5,7 +5,9 @@
 
 Module that utilizes worker processes to perform HTTP requests. Useful if
 you need to make a large number of HTTP requests or the requests you're making
-will take a long time to get a response.
+will take a long time to get a response. request-worker uses the
+[request](https://github.com/request/request) module to perform the request;
+all the same options are supported.
 
 ## Installation
 
