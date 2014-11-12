@@ -1,0 +1,48 @@
+{
+  "name": "request-worker",
+  "version": "1.0.0",
+  "description": "Module that utilizes worker processes to perform HTTP requests.",
+  "author": {
+    "name": "Scott Brady",
+    "email": "scott@sbrady.com"
+  },
+  "keywords": [
+    "request",
+    "http",
+    "web",
+    "worker"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/scottbrady/request-worker"
+  },
+  "main": "./index.js",
+  "engines": {
+    "node": "*"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/scottbrady/request-worker/blob/master/LICENSE"
+  },
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/scottbrady/request-worker/issues"
+  },
+  "homepage": "https://github.com/scottbrady/request-worker",
+  "dependencies": {
+    "request": "~2.48.0",
+    "q": "~1.1.1",
+    "extend": "~2.0.0"
+  },
+  "devDependencies": {
+    "should": "~4.3.0",
+    "mocha": "~2.0.1",
+    "grunt": "~0.4.5",
+    "grunt-cli": "~0.1.13",
+    "grunt-mocha-test": "~0.12.2",
+    "grunt-contrib-coffee": "~0.12.0"
+  },
+  "scripts": {
+    "test": "grunt tests"
+  }
+}
