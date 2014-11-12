@@ -35,7 +35,8 @@ RequestWorker.getInstance({count: 16})
   })
   .fail(function (error) {
     // error handling...
-  });
+  })
+  .done();
 ```
 
 You can also create your own instance:
@@ -45,7 +46,8 @@ var requestWorker = new RequestWorker({count: 16});
 requestWorker
   .request(...)
   .then(...)
-  .fail(...);
+  .fail(...)
+  .done();
 ```
 
 ## License
