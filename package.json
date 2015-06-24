@@ -30,17 +30,17 @@
   },
   "homepage": "https://github.com/scottbrady/request-worker",
   "dependencies": {
-    "request": "~2.48.0",
-    "q": "~1.1.1",
+    "request": "~2.58.0",
+    "q": "~1.4.1",
     "extend": "~2.0.0"
   },
   "devDependencies": {
-    "should": "~4.3.0",
-    "mocha": "~2.0.1",
+    "should": "~6.0.3",
+    "mocha": "~2.2.5",
     "grunt": "~0.4.5",
     "grunt-cli": "~0.1.13",
     "grunt-mocha-test": "~0.12.2",
-    "grunt-contrib-coffee": "~0.12.0"
+    "grunt-contrib-coffee": "~0.13.0"
   },
   "scripts": {
     "test": "grunt tests"
